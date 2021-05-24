@@ -1,0 +1,18 @@
+.container {
+    width: 1200px;
+    height: 1200px;
+    background-color: rgb(187, 184, 184);
+}
+
+.banner {
+    height: 180px;
+    background-image: url("../img/pattern.png");
+    background-color: rgb(82, 122, 243);
+    background-image: repeat;
+}
+
+.logo {
+    height: 30%;
+    background-repeat: no-repeat;
+    background-image: url("../img/logo.svg");
+}

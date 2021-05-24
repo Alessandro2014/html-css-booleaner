@@ -1,6 +1,6 @@
 .container {
-    width: 1100px;
-    height: 1200px;
+    width: 1200px;
+    margin: auto;
 }
 
 .banner {
@@ -12,27 +12,45 @@
 
 .logo {
     height: 30%;
+    margin-bottom: 0px;
     background-repeat: no-repeat;
     background-image: url("../img/logo.svg");
 }
 
-#color_booleaner{
+#color_booleaner {
     color: rgb(124, 196, 241);
 }
 
 .autore {
+    font-size:18px;
     color: rgb(130, 131, 133);
 }
 
-.evidenziatore{
+.evidenziatore {
     background-color: yellow;
 }
 
-.table_head{
+.table_head {
     color: white;
     background-color: rgb(38, 164, 243);;
 }
 
-.table_body{
+.table_body {
     background-color: rgb(124, 196, 241);
+}
+
+#monitor {
+    height: 200px;
+    width: 200px;
+    background-image: url("../img/monitor.jpg");
+    background-image: cover;
+    text-align: center;
+}
+
+#grafico {
+    height: 200px;
+    width: 200px;
+    background-image: url("../img/graph.jpg");
+    background-image: cover;
+    text-align: center;
 }
